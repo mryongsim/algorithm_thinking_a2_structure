@@ -66,7 +66,8 @@ python3 experiment_1.py
 
 ## python basics
 [CodeDex](https://www.codedex.io/python) or [grok](https://groklearning.com/course/python-for-beginners/)
-If you don't know python it's probably a good idea to do some basic lessons. if you're using the above lessons i suggest you at least learn about:
+
+If you don't know python it's probably a good idea to do some basic lessons. if you're using the above lessons I suggest you at least learn about:
 - basic
 - variable
 - loop
