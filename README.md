@@ -1,7 +1,9 @@
 # algorithm_thinking_a2_structure
 
 ## Intro
-This provides some basic structure for those trying to get assessment 2 working.
+This provides some basic structure for those trying to get assessment 2 working. 
+
+I know it's a lot to wrap your head around and this readme might be long but I think it'll help get you started.
 
 ## Requirements
 If running locally you will need:
@@ -72,10 +74,10 @@ python3 experiment_1.py
 2. Mouse over Changes (or any of the file) and click the plus. This will add the file(s) to be staged for commiting
 ![alt text](img/changes_plus.png)
 
-3. Add a comment (you always need to) and click Commit. *This is not done yet!*
+3. Add a comment (you always need to) and click **Commit**. *This is not done yet!*
 At this stage your code is commited but not actually push to the github - it's still just on your machine
 
-4. Click Push
+4. Click **Sync Changes** and this will push it to the repository.
 
 ## python basics
 [CodeDex](https://www.codedex.io/python) or [grok](https://groklearning.com/course/python-for-beginners/)
