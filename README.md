@@ -64,6 +64,19 @@ For each experiment you should write a different file so it's easy to keep them 
 python3 experiment_1.py
 ```
 
+## Saving to git
+1. In VS Code you can click on this 'route' looking tool (source control) and you can see your changes 
+
+![source control](img/source.png)
+
+2. Mouse over Changes (or any of the file) and click the plus. This will add the file(s) to be staged for commiting
+![alt text](img/changes_plus.png)
+
+3. Add a comment (you always need to) and click Commit. *This is not done yet!*
+At this stage your code is commited but not actually push to the github - it's still just on your machine
+
+4. Click Push
+
 ## python basics
 [CodeDex](https://www.codedex.io/python) or [grok](https://groklearning.com/course/python-for-beginners/)
 
