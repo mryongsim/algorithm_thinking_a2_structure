@@ -75,5 +75,5 @@ If you don't know python it's probably a good idea to do some basic lessons. if 
 - classes - this last bit is how I've kind of structured the code.
 
 ### tips
-- python really cares about indents. if you're code doesn't look right you're probably not indenting correctly.
+- python really cares about indents. if your code doesn't look right you're probably not indenting correctly.
 - import is used to import code from another file or modules (which is basically just a group of files). There's some prebuilt ones and I think in here i've used `random` and `pathlib` only.
