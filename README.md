@@ -65,6 +65,7 @@ For each experiment you should write a different file so it's easy to keep them 
 ```
 python3 experiment_1.py
 ```
+4. Output of files are in a folder called `experiment`.
 
 ## Saving to git
 1. In VS Code you can click on this 'route' looking tool (source control) and you can see your changes 
