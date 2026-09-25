@@ -44,6 +44,8 @@ If running locally you will need:
 I'm going to assume you're doing this locally, in VS Code and have the above setup to go
 1. Fork my repo to yours, go to [this repo](https://github.com/mryongsim/algorithm_thinking_a2_structure) and click on the Fork button. Save a copy repo to your personal account and you can edit as you see fit.
 
+![fork](img/fork.png)
+
 2. click on the green Code button and copy the url
 
 ![Github code](img/code.png)
@@ -98,3 +100,4 @@ If you don't know python it's probably a good idea to do some basic lessons. if 
 ### tips
 - python really cares about indents. if your code doesn't look right you're probably not indenting correctly.
 - import is used to import code from another file or modules (which is basically just a group of files). There's some prebuilt ones and I think in here i've used `random` and `pathlib` only.
+- Once you're done you can change the `README.md` to whatever you want. learn [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for formatting. Or just create your own `.md` files
