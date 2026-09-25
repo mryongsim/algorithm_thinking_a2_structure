@@ -35,8 +35,9 @@ def getTop(s) -> int | None:
 
     
 """
-If you're up for it (it's not difficult), you could use classes
-in this case we could create a class called Compatitor, 
+If you're up for it (it's not difficult), you could use classes.
+
+In this case we could create a class called Competitor, 
 The usage is very similar but it's a lot cleaner, as a class nicely encapsulate it's own data. 
 There's other benefits but it's not relevent right now
 to change the above there's one thing to note. each function needs to pass in a `self` as the first parameter

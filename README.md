@@ -11,7 +11,7 @@ If running locally you will need:
 
 2. either just write your code with an online editor (eg https://python-playground.com/) or
 
-3. Get an IDE, [vscode](https://code.visualstudio.com/) is very good. if you use vscode i suggest you install some extensions such as Python, Python debugger, Pylance, it'll make your coding experience better
+3. Get an IDE, [vscode](https://code.visualstudio.com/) is very good. if you use vscode I suggest you install some extensions such as Python, Python debugger, Pylance, it'll make your coding experience better
 
 4. Get familiar with the command line if you're using an IDE so you can run your code from there
 
@@ -21,7 +21,7 @@ If running locally you will need:
 > Github is one of a well one hosting service that provide online storage (for a version control repository) and collaboration.
 
 > [!Tip]
-> I rarely have use git on the command line if you're using vs code and i still struggle with some of the more complex ones, at which point claude is super helpful
+> I rarely have use git on the command line if you're using vs code and I still struggle with some of the more complex ones, at which point claude is super helpful
 >
 > But here are some useful commands:
 >
