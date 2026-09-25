@@ -1,7 +1,5 @@
 import random
 from pathlib import Path
-
-
 def gen_element() ->  int:
     #  key <- an integer that is drawn uniformly at random from the range [0,10^7]
     # Return key as the generated element.
@@ -33,3 +31,4 @@ def write_to_file(filename: str, data: list[str], base_dir: Path = Path.cwd() / 
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w") as file:
         file.writelines(f"{line}\n" for line in data)
+

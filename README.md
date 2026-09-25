@@ -13,6 +13,40 @@ If running locally you will need:
 
 4. Get familiar with the command line if you're using an IDE so you can run your code from there
 
+5. You don't strictly have to install [git](https://git-scm.com/install/mac) but it's a good idea and again, will make your life easier. follow the setup [guide](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup)
+> [!Note]
+> git is a tool that allows you to interact with a version control system. 
+> Github is one of a well one hosting service that provide online storage (for a version control repository) and collaboration.
+
+> [!Tip]
+> I rarely have use git on the command line if you're using vs code and i still struggle with some of the more complex ones, at which point claude is super helpful
+> But here are some useful commands:
+> `git clone [repo_link]` - clones a repository [repo_link] to your local machine.
+> `git pull` - pulls any update from the repository
+> `git push` - pushes your changes to the repository
+
+
+6. If you don't have an account I strongly suggest you create one with [Github](https://git-scm.com/install/mac). It's free and it'll save you the hassle of dealing with version control.
+> [!^Tip]
+> Your repository can be private.
+> If you're signing up - fork a copy of the repo
+>
+> ![fork](img/fork.png)
+
+
+## Steps to get started
+I'm going to assume you're doing this locally, in VS Code and have the above setup to go
+1. Fork my repo to yours, go to [this repo](https://github.com/mryongsim/algorithm_thinking_a2_structure) and click on the Fork button. Save a copy repo to your personal account and you can edit as you see fit.
+
+2. click on the green Code button and copy the url
+
+![Github code](img/code.png)
+
+3. Open VS Code and you'll see an option to clone a git repository. Click it an paste the url you copied earlier. it'll ask you where to save a copy. Note that it will create a folder by itself
+
+![clone](img/clone.png)
+
+
 ## File structure
 It's pretty clear from the list but if not we have:
 * generator - the generator code for generating the data + writing to file
@@ -29,7 +63,6 @@ For each experiment you should write a different file so it's easy to keep them 
 ```
 python3 experiment_1.py
 ```
-
 
 ## python basics
 [CodeDex](https://www.codedex.io/python) or [grok](https://groklearning.com/course/python-for-beginners/)
