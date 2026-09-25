@@ -22,14 +22,18 @@ If running locally you will need:
 
 > [!Tip]
 > I rarely have use git on the command line if you're using vs code and i still struggle with some of the more complex ones, at which point claude is super helpful
+>
 > But here are some useful commands:
+>
 > `git clone [repo_link]` - clones a repository [repo_link] to your local machine.
+>
 > `git pull` - pulls any update from the repository
+>
 > `git push` - pushes your changes to the repository
 
 
 6. If you don't have an account I strongly suggest you create one with [Github](https://git-scm.com/install/mac). It's free and it'll save you the hassle of dealing with version control.
-> [!^Tip]
+> [!Tip]
 > Your repository can be private.
 > If you're signing up - fork a copy of the repo
 >
