@@ -95,7 +95,6 @@ If you don't know python it's probably a good idea to do some basic lessons. if 
 - loop
 - list
 - functions
-- classes - this last bit is how I've kind of structured the code.
 
 ### tips
 - python really cares about indents. if your code doesn't look right you're probably not indenting correctly.

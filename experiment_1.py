@@ -6,8 +6,8 @@
 # Then you input the same s1, ..., s5 to each of the max-heap and the array A.
 from datetime import datetime
 from generator import gen_element, gen_push, gen_pop, write_to_file
-from max_heap import MaxHeap
-from competitor import Competitor
+import max_heap
+import competitor
 
 
 def experiment_1_generate():
@@ -34,6 +34,8 @@ def experiment_1_run():
     # run against competitor
     # stop the timer
     # write the results to output file or to screen
+    # you can use code from max heap and competitor as:
+    # max_heap.push(), competitor.push(), max_heap.pop(), competitor...
     pass # remove this line when code is setup
 
 
