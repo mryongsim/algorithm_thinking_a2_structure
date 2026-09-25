@@ -1,5 +1,6 @@
 import random
 from pathlib import Path
+
 def gen_element() ->  int:
     #  key <- an integer that is drawn uniformly at random from the range [0,10^7]
     # Return key as the generated element.
