@@ -5,7 +5,7 @@
 # length L = 0.1M, 0.2M, 0.5M, 0.8M, 1M, where $M$ stands for one million, i.e., 10^6.
 # Then you input the same s1, ..., s5 to each of the max-heap and the array A.
 from datetime import datetime
-from generator import gen_element, gen_push, gen_pop, write_to_file
+import generator 
 import max_heap
 import competitor
 
@@ -17,13 +17,19 @@ def experiment_1_generate():
     # loop through and generate the data -> store in a list/array (ie data)
 
     # write the number of lines as first element of list/array (ie data)
+    # sample code for getting data
+    # you'll need to make it more complex then this
+    # hint: you can put the list of length multipler in a list, loop through that and call the generator
+    for i in range(10):
+        data.append(generator.gen_push())
+
     data.insert(0, 10) # example size - this will put 10 in the first element
 
     # pick either of the output file name options.
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     outputfilename = "./experiment_1_data" # example one - manual naming 
     outputfilename = f"./data_{len(data)}_{timestamp}.out" # example 2 - automatic naming - replace 'data' with the generated array
-    write_to_file(outputfilename, data)
+    generator.write_to_file(outputfilename, data)
 
 def experiment_1_run():
     # read the file s1-s5
