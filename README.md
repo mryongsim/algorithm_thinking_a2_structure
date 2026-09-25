@@ -86,7 +86,7 @@ At this stage your code is commited but not actually push to the github - it's s
 
 4. Click **Sync Changes** and this will push it to the repository.
 
-## python basics
+## Python Basics
 [CodeDex](https://www.codedex.io/python) or [grok](https://groklearning.com/course/python-for-beginners/)
 
 If you don't know python it's probably a good idea to do some basic lessons. if you're using the above lessons I suggest you at least learn about:
@@ -97,7 +97,9 @@ If you don't know python it's probably a good idea to do some basic lessons. if 
 - functions
 - classes if you like. I added a sample to competitors but it's not strictly necessary.
 
-### tips
+### Tips and Gotchas
 - python really cares about indents. if your code doesn't look right you're probably not indenting correctly.
 - import is used to import code from another file or modules (which is basically just a group of files). There's some prebuilt ones and I think in here i've used `random` and `pathlib` only.
+- "1" does not equal to 1. The data you read back from the file will be text/string, so be careful!
+- you'll need a extra space on the MaxHeap - i.e. MaxHeap needs to be $10^6 + 1$ as index 0 (the first space) is intentially left empty
 - Once you're done you can change the `README.md` to whatever you want. learn [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for formatting. Or just create your own `.md` files
